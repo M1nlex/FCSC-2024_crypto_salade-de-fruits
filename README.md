@@ -9,7 +9,7 @@ Sur le site, le problème se présente de la manière suivante:
 ![énoncé du problème](salade-de-fruits.png)
 Le fichier est également mit à disposition ([ici](salade-de-fruits.py)) si nécessaire.
 
-## Récriture du problème
+## Réécriture du problème
 
 Le programme de l'énoncé comprend 3 boucles incrémentant chacune une variable. Pour la suite, on pose:
 
