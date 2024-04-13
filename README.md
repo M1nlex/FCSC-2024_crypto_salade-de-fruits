@@ -41,35 +41,36 @@ Nous définissons : $a=\frac{X}{Z},b=\frac{Y}{Z}$
 On notera également que $(a,b) \in \mathbb{Q}^{2+*}$
 
 Ainsi:
-$$\begin{array}{ll}
-	(\frac{X}{Z})^3+(\frac{Y}{Z})^3=94 \\
-	\Leftrightarrow a^3+b^3=94
-\end{array}$$
+
+$(\frac{X}{Z})^3+(\frac{Y}{Z})^3=94$
+$\Leftrightarrow a^3+b^3=94$
 
 Cette équation est de la forme :
 $$\Leftrightarrow a^3+b^3=N$$
 D'après [cette archive](https://web.archive.org/web/20100125133830/http://maths.paisley.ac.uk/allanm/ecrnt/twocubes/twocubes.htm), comme $94\equiv 4 \pmod 9$, il existe au moins une solution au problème (prouvé par *Noam Elkies* d'après l'archive, mais je n'ai pas pu trouver l'article d'origine évoqué dedans).
 
 Il est possible d'établir que cette équation est birationnellement équivalente à la courbe elliptique suivante, définie sur $\mathbb{Q}$:
-$$E:u^3-432N^2=v^2$$  
+
+$E:u^3-432N^2=v^2$
+
 Avec:
-$$\begin{array}{ll}
-	a=\frac{36N+v}{6u} \\
-	b=\frac{36N-v}{6u}
-\end{array}$$
+
+$a=\frac{36N+v}{6u}$
+$b=\frac{36N-v}{6u}$
 
 Nous devons alors trouver des couples $(u_{s},v_{s}) \in \mathbb{Q}^{2}$  appartenant à la courbe $E$.
 
 De plus, nous ne nous intéressons qu'aux solutions telles que $(a,b) \in \mathbb{Q}^{2+*}$.
-En utilisant les formules de passages de $(u,v)$ à $(a,b)$, nous pouvons déduire que les expressions suivantes sont de même signe:
-$$\left \{
-	\begin{array}{ll}
-        6u \\
-		36N+v \\
-		36N-v
-    \end{array}
-\right.$$
-Cela est possible uniquement si:
+En utilisant les formules de passages de $(u,v)$ à $(a,b)$, nous pouvons déduire que les expressions suivantes sont de même signe:  
+
+$\begin{array}{ll}
+	6u \\
+	36N+v \\
+	36N-v
+\end{array}$
+
+Cela est possible uniquement si:  
+
 $$\begin{array}{ll}
 	u>0 \\
 	\mid v \mid < 36N
