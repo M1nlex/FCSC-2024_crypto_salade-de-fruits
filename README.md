@@ -63,11 +63,11 @@ Nous devons alors trouver des couples $(u_{s},v_{s}) \in \mathbb{Q}^{2}$  appart
 De plus, nous ne nous intéressons qu'aux solutions telles que $(a,b) \in \mathbb{Q}^{2+*}$.
 En utilisant les formules de passages de $(u,v)$ à $(a,b)$, nous pouvons déduire que les expressions suivantes sont de même signe:  
 
-$\begin{array}{ll}
+$$\begin{array}{lll}
 	6u \\
 	36N+v \\
 	36N-v
-\end{array}$
+\end{array}$$
 
 Cela est possible uniquement si:  
 
